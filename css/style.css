@@ -1,0 +1,11 @@
+.containers {
+  border: 4px solid greenyellow;
+  width: 600px;
+  border-radius: 15px;
+}
+
+.image01 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
