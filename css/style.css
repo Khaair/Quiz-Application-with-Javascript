@@ -9,10 +9,10 @@
   height: 500px;
   border-radius: 40px;
   margin-left: 420px;
-
   background-color: #fff;
   box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
   margin-top: 20px;
+  display: none;
 }
 
 .image01 {
@@ -21,9 +21,9 @@
   height: 200px;
 }
 /* .img01 {
-  border: solid 2px red;
-  width: 100%;
-} */
+    border: solid 2px red;
+    width: 100%;
+  } */
 .text01,
 .text02 {
   padding-left: 30px;
@@ -58,21 +58,10 @@
   background-color: #fff;
   box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
   margin-top: 20px;
-
-.btn-l 6eft {
-  width: 126px;
-  height: 50px;
-  margin-top: 27px;
-
-  background: cyan;
-  border-radius: 30px;
-
-  margin-left: 0px;
+  display: none;
 }
-
 .btnLeft:hover {
   background-color: cornsilk;
- 
 }
 
 .doublebutton {
@@ -85,4 +74,46 @@
 
 .list01 {
   padding-left: 50px;
+}
+
+.btnExit {
+  width: 120px;
+  height: 50px;
+
+  background: navy;
+  border-radius: 30px;
+
+  margin-right: 74px;
+  margin-top: 93px;
+  color: orange;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 0px 57px 0px 51px;
+}
+
+.btnContinue {
+  width: 120px;
+  height: 50px;
+
+  background: navy;
+  border-radius: 30px;
+
+  margin-right: 0px;
+  margin-top: 93px;
+  margin-left: 86px;
+
+  color: orange;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 57px 0px 51px 0px;
+}
+
+.questionContainer {
+  width: 400px;
+  height: 500px;
+  border-radius: 40px;
+  margin-left: 420px;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
+  margin-top: 20px;
 }
