@@ -11,7 +11,7 @@
   margin-left: 420px;
 
   background-color: #fff;
-  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
   margin-top: 20px;
 }
 
@@ -20,6 +20,10 @@
   justify-content: center;
   height: 200px;
 }
+/* .img01 {
+  border: solid 2px red;
+  width: 100%;
+} */
 .text01,
 .text02 {
   padding-left: 30px;
@@ -28,17 +32,21 @@
 .btn {
   width: 120px;
   height: 50px;
-  margin-top: 27px;
-  margin-left: 157px;
-  background: cyan;
+
+  background: navy;
   border-radius: 30px;
   border-radius: 57px 0px 51px 0px;
   margin-right: 0px;
+  margin-top: 24px;
+  margin-left: 279px;
+  color: orange;
+  font-size: 20px;
+  font-style: oblique;
 }
 
 .btn:hover {
   background-color: cornsilk;
-  border-color: cyan;
+  border-color: navy;
 }
 
 .rulescontainer {
@@ -48,25 +56,23 @@
   margin-left: 420px;
 
   background-color: #fff;
-  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
   margin-top: 20px;
-  display: none;
-}
 
-.btnLeft {
+.btn-l 6eft {
   width: 126px;
   height: 50px;
   margin-top: 27px;
 
   background: cyan;
   border-radius: 30px;
-  border-radius: 0px 57px 0px 51px;
+
   margin-left: 0px;
 }
 
 .btnLeft:hover {
   background-color: cornsilk;
-  border-color: cyan;
+ 
 }
 
 .doublebutton {
