@@ -153,11 +153,6 @@
   display: flex;
 }
 
-.headrer p {
-  display: grid;
-  justify-content: right;
-}
-
 .resultcontainer {
   width: 400px;
   height: 500px;
