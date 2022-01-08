@@ -3,15 +3,16 @@
   padding: 0;
   font-family: "Scheherazade New", serif;
 }
-
-.containers {
-  width: 400px;
-  height: 500px;
-  border-radius: 40px;
-  margin-left: 420px;
+.MyQuizApp {
+  width: 320px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-color: #fff;
-  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
-  margin-top: 20px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 48px;
 }
 
 .image01 {
@@ -29,82 +30,88 @@
   padding-left: 30px;
 }
 
-.btn {
-  width: 120px;
-  height: 50px;
-
-  background: navy;
-  border-radius: 30px;
-  border-radius: 57px 0px 51px 0px;
-  margin-right: 0px;
-  margin-top: 24px;
-  margin-left: 279px;
-  color: orange;
+.MyBtn {
+  width: 60%;
+  margin-top: -5px;
+  margin-left: 187px !important ;
+}
+.MyBtn button {
   font-size: 20px;
-  font-style: oblique;
+  font-weight: 600;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 6px 25px;
+  cursor: pointer;
+  border-radius: 57px 0px 51px 0px;
+  transition: 0.2s ease-in-out;
+}
+.MyBtn button:hover {
+  background-color: rgb(29, 194, 194);
 }
 
-.btn:hover {
-  background-color: cornsilk;
-  border-color: navy;
+.RulesBox.activeInfo {
+  opacity: 1;
+  z-index: 5;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
 }
 
-.rulescontainer {
-  width: 400px;
-  height: 500px;
-  border-radius: 40px;
-  margin-left: 420px;
-
+.RulesBox {
+  width: 320px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-color: #fff;
-  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
-  margin-top: 20px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 48px;
+  opacity: 0;
+  pointer-events: none;
+  border: 2px solid red;
 }
-.btnLeft:hover {
-  background-color: cornsilk;
-}
-
-.doublebutton {
-  display: flex;
-}
-
-.apprules {
+.RulesTitle {
   text-align: center;
-}
-
-.list01 {
-  padding-left: 50px;
-}
-
-.btnExit {
-  width: 120px;
-  height: 50px;
-
-  background: navy;
-  border-radius: 30px;
-
-  margin-right: 74px;
-  margin-top: 93px;
-  color: orange;
   font-size: 20px;
-  font-style: oblique;
-  border-radius: 0px 57px 0px 51px;
+  font-weight: 600;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
 }
-
-.btnContinue {
-  width: 120px;
-  height: 50px;
-
-  background: navy;
-  border-radius: 30px;
-
-  margin-right: 0px;
-  margin-top: 93px;
-  margin-left: 86px;
-
-  color: orange;
+.RulesList {
+  width: 80%;
+  margin: auto;
+}
+ol li {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+.Buttons button {
   font-size: 20px;
-  font-style: oblique;
-  border-radius: 57px 0px 51px 0px;
+  font-weight: 600;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 6px 25px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 26px;
+}
+.ExitButton {
+  border-radius: 0px 47px 0px 46px;
+}
+.ExitButton:hover {
+  background-color: red;
+}
+.ContinueButton {
+  border-radius: 57px 0px 46px 0px;
+  margin-left: 65px;
+}
+.ContinueButton:hover {
+  background-color: rgb(29, 194, 194);
 }
 
 .questionContainer {
@@ -138,12 +145,15 @@
   list-style: none;
   display: grid;
   justify-content: center;
+  border: 2px solid gray;
+  margin: 5px;
 }
 .heading {
   padding-left: 20px;
 }
 .footercount {
   margin-top: 40px;
+  padding-left: 20px;
 }
 
 .headrer {
@@ -155,18 +165,18 @@
   justify-content: right;
 }
 
-.resultcontainer {
-  width: 400px;
-  height: 500px;
-  border-radius: 40px;
-  margin-left: 420px;
-  background-color: #fff;
-  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
-  margin-top: 20px;
-}
-
 .lastimg {
   width: 100%;
   height: 250px;
   border-radius: 40px 40px 0px 0px;
+}
+.finishmsg {
+  text-align: center;
+}
+.lastbutton button {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 20px;
+  margin: 40px;
 }
